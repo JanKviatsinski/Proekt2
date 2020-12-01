@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PROECT-2</title>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="main-header">
+    <picture>
+        <source srcset="./img/background.jpg">
+        <img class="main-header__background" src="./img/background.jpg" alt="background">
+    </picture>
+
+    <div class="main-header-wrap">
+        <div class="main-header__nav-wrap">
+            <picture>
+                <img class="logo" src="./img/Logo.png" alt="Logo">
+            </picture>
+
+            <ul class="main-navigation">
+                <li><a class="btn-anim">Home</a></li>
+                <li><a class="btn-anim">Shop</a></li>
+                <li><a class="btn-anim">Account</a></li>
+                <li><a class="btn-anim">Pages</a></li>
+                <li><a class="btn-anim">Blog</a></li>
+                <li><a class="btn-anim">Docs / Components</a></li>
+            </ul>
+
+            <div class="main-header__user-tools">
+                <button class="main-header__button-login">
+                    <img class="main-header__avatar" src="./img/avatar.png" alt="avatar">
+                    <span>My Account</span>
+                </button>
+                <button class="main-header__button-liked">
+                    <img class="main-header__img-liked" src="./img/liked.png" alt="liked">
+                </button>
+                <button class="main-header__button-basket">
+                    <img class="main-header__img-basket" src="./img/basket.png" alt="basket">
+                </button>
+            </div>
+            </div>
+
+                <div class="main-header__main-slogan-wrap">
+                    <h2 class="main-header__title">
+                        SUMMER 2020
+                    </h2>
+                    <h1 class="main-header__main-title">
+                        New Collection
+                    </h1>
+                    <p class="main-header__paragraph">
+                        Find The Perfect style for you
+                    </p>
+                    <div class="main-header__button-shop-wrap">
+                    <button class="main-header__button-shop">
+                        <span>Shop Now</span>
+                    </button>
+                    </div>
+                </div>
+            </div>
+</header>
+<main>
+    <section class="section-categories">
+        <div class="section-categories-wrap">
+        <figure class="section-categories__category">
+            <picture>
+                <source srcset="./img/hat.png">
+                <img class="section-categories__img" src="./img/hat.png" alt="hat">
+            </picture>
+            <button class="section-categories__buttons">
+                <span>HAT</span>
+            </button>
+        </figure>
+
+        <figure class="section-categories__category">
+            <picture>
+                <source srcset="./img/shoes.png">
+                <img class="section-categories__img" src="./img/shoes.png" alt="shoes">
+            </picture>
+            <button class="section-categories__buttons">
+                <span>SHOES</span>
+            </button>
+        </figure>
+
+        <figure class="section-categories__category section-categories__img-big">
+            <picture>
+                <source srcset="./img/dresses.png">
+                <img class="section-categories__img "
+                     src="./img/dresses.png" alt="dresses">
+            </picture>
+            <button class="section-categories__buttons">
+                <span>DRESSES</span>
+            </button>
+        </figure>
+
+        <figure class="section-categories__category">
+            <picture>
+                <source srcset="./img/bags.png">
+                <img class="section-categories__img" src="./img/bags.png" alt="bags">
+            </picture>
+            <button class="section-categories__buttons">
+                <span>BAGS</span>
+            </button>
+        </figure>
+
+        <figure class="section-categories__category">
+            <picture>
+                <source srcset="./img/clothes.png">
+                <img class="section-categories__img" src="./img/clothes.png" alt="clothes">
+            </picture>
+            <button class="section-categories__buttons">
+                <span>CLOTHES</span>
+            </button>
+        </figure>
+        </div>
+    </section>
+
+    <section class="section-featured">
+        <div class="section-featured-wrap">
+            <header class="section-featured__header">
+                <h2 class="section-featured__title">
+                    Featured Products
+                </h2>
+                <ul class="section-featured__filters">
+                    <li>
+                        <button class="filter-button btn-anim">Featured</button>
+                    </li>
+
+                    <li>
+                        <button class="filter-button btn-anim">Best Seller</button>
+                    </li>
+
+                    <li>
+                        <button class="filter-button btn-anim" >Best Seller</button>
+                    </li>
+
+                </ul>
+            </header>
+
+            <div class="section-featured__products">
+                <div class="product">
+                    <picture>
+                        <source media="(max-width:465px)" srcset="./img/Picture1.png">
+                        <img class="product-img" src="./img/Picture1.png" alt="Photo">
+                    </picture>
+
+                    <label class="product__button-like--radio">
+                        <input type="radio" hidden>
+                        <span class="img-like"></span>
+                    </label>
+
+                    <div class="product__description">
+                        <h3 class="product-name">
+                            Men's Essential Tee
+                        </h3>
+
+                        <p class="product-category">
+                            (Black)
+                        </p>
+
+                        <p class="product-price">
+                            $32.00
+                        </p>
+
+                        <ul class="product-colors">
+                            <li>
+                                <label class="product-color__blue">
+                                    <input type="radio" name="product-colors" hidden>
+                                    <span class="label-blue"></span>
+                                </label>
+                            </li>
+
+                            <li>
+                                <label class="product-color__green">
+                                    <input type="radio" name="product-colors" hidden>
+                                    <span class="label-green"></span>
+                                </label>
+                            </li>
+
+                            <li>
+                                <label class="product-color__orange">
+                                    <input type="radio" name="product-colors" hidden>
+                                    <span class="label-orange"></span>
+                                </label>
+                            </li>
+
+                            <li>
+                                <label class="product-color__dark">
+                                    <input type="radio" name="product-colors" hidden>
+                                    <span class="label-dark"></span>
+                                </label>
+                            </li>
+                        </ul>
+
+                        <ul class="product-sizes">
+                            <li class="product-size__XL">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">XL</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__L">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">L</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__M">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">M</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__S">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size ">S</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <picture>
+                        <source media="(max-width:465px)" srcset="./img/Picture.png">
+                        <img class="product-img" src="./img/Picture.png" alt="Photo">
+                    </picture>
+
+                    <label class="product__button-like--radio">
+                        <input type="radio" hidden>
+                        <span class="img-like"></span>
+                    </label>
+
+                    <div class="product__description">
+                        <h3 class="product-name">
+                            Men's Essential Tee
+                        </h3>
+
+                        <p class="product-category">
+                            (Black)
+                        </p>
+
+                        <p class="product-price">
+                            $32.00
+                        </p>
+
+                        <ul class="product-colors">
+                            <li>
+                                <label class="product-color__blue">
+                                    <input type="radio" name="product-colors" hidden>
+                                    <span class="label-blue"></span>
+                                </label>
+                            </li>
+
+                            <li>
+                                <label class="product-color__green">
+                                    <input type="radio" name="product-colors" hidden>
+                                    <span class="label-green"></span>
+                                </label>
+                            </li>
+
+                            <li>
+                                <label class="product-color__orange">
+                                    <input type="radio" name="product-colors" hidden>
+                                    <span class="label-orange"></span>
+                                </label>
+                            </li>
+
+                            <li>
+                                <label class="product-color__dark">
+                                    <input type="radio" name="product-colors" hidden>
+                                    <span class="label-dark"></span>
+                                </label>
+                            </li>
+                        </ul>
+
+                        <ul class="product-sizes">
+                            <li class="product-size__XL">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">XL</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__L">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">L</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__M">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">M</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__S">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">S</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <picture>
+                        <source media="(max-width:465px)" srcset="./img/Picture2.png">
+                        <img class="product-img" src="./img/Picture2.png" alt="Photo">
+                    </picture>
+
+                    <label class="product__button-like--radio">
+                        <input type="radio" hidden>
+                        <span class="img-like"></span>
+                    </label>
+
+
+                    <div class="product__description">
+                        <h3 class="product-name">
+                            Men's Essential Tee
+                        </h3>
+
+                        <p class="product-category">
+                            (Black)
+                        </p>
+
+                        <p class="product-price">
+                            $32.00
+                        </p>
+
+                        <ul class="product-colors">
+                            <li>
+                                <label class="product-color__blue">
+                                    <input type="radio" name="product-colors" hidden>
+                                    <span class="label-blue"></span>
+                                </label>
+                            </li>
+
+                            <li>
+                                <label class="product-color__green">
+                                    <input type="radio" name="product-colors" hidden>
+                                    <span class="label-green"></span>
+                                </label>
+                            </li>
+
+                            <li>
+                                <label class="product-color__orange">
+                                    <input type="radio" name="product-colors" hidden>
+                                    <span class="label-orange"></span>
+                                </label>
+                            </li>
+
+                            <li>
+                                <label class="product-color__dark">
+                                    <input type="radio" name="product-colors" hidden>
+                                    <span class="label-dark"></span>
+                                </label>
+                            </li>
+                        </ul>
+
+                        <ul class="product-sizes">
+                            <li class="product-size__XL">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">XL</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__L">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">L</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__M">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">M</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__S">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">S</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <picture>
+                        <source media="(max-width:465px)" srcset="./img/Picture3.png">
+                        <img class="product-img" src="./img/Picture3.png" alt="Photo">
+                    </picture>
+
+                    <label class="product__button-like--radio">
+                        <input type="radio" hidden>
+                        <span class="img-like"></span>
+                    </label>
+
+                    <div class="product__description">
+                        <h3 class="product-name">
+                            Men's Essential Tee
+                        </h3>
+
+                        <p class="product-category">
+                            (Black)
+                        </p>
+
+                        <p class="product-price">
+                            $32.00
+                        </p>
+
+                        <ul class="product-colors">
+                            <li>
+                                <label class="product-color__blue">
+                                    <input type="radio" name="product-colors" hidden>
+                                    <span class="label-blue"></span>
+                                </label>
+                            </li>
+
+                            <li>
+                                <label class="product-color__green">
+                                    <input type="radio" name="product-colors" hidden>
+                                    <span class="label-green"></span>
+                                </label>
+                            </li>
+
+                            <li>
+                                <label class="product-color__orange">
+                                    <input type="radio" name="product-colors" hidden>
+                                    <span class="label-orange"></span>
+                                </label>
+                            </li>
+
+                            <li>
+                                <label class="product-color__dark">
+                                    <input type="radio" name="product-colors" hidden>
+                                    <span class="label-dark"></span>
+                                </label>
+                            </li>
+                        </ul>
+
+                        <ul class="product-sizes">
+                            <li class="product-size__XL">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">XL</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__L">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">L</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__M">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">M</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__S">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">S</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-latest">
+        <div class="section-latest-wrap">
+            <h2 class="section-latest__title">
+                Latest Products
+            </h2>
+
+            <div class="section-latest__products">
+                <div class="product">
+                    <picture>
+                        <source media="(max-width:465px)" srcset="">
+                        <img class="product-img" src="./img/Picture(0).png" alt="Photo">
+                    </picture>
+
+                    <label class="product__button-like--radio">
+                        <input type="radio" hidden>
+                        <span class="img-like"></span>
+                    </label>
+
+                    <div class="product__description">
+                        <h3 class="product-name">
+                            Men's Essential Tee
+                        </h3>
+
+                        <p class="product-category">
+                            (Black)
+                        </p>
+
+                        <p class="product-price">
+                            $32.00
+                        </p>
+
+                        <ul class="product-sizes">
+                            <li class="product-size__XL">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">XL</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__L">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">L</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__M">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">M</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__S">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size ">S</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <picture>
+                        <source media="(max-width:465px)" srcset="">
+                        <img class="product-img" src="./img/Picture(1).png" alt="Photo">
+                    </picture>
+
+                    <label class="product__button-like--radio">
+                        <input type="radio" hidden>
+                        <span class="img-like"></span>
+                    </label>
+
+                    <div class="product__description">
+                        <h3 class="product-name">
+                            Men's Essential Tee
+                        </h3>
+
+                        <p class="product-category">
+                            (Black)
+                        </p>
+
+                        <p class="product-price">
+                            $32.00
+                        </p>
+
+                        <ul class="product-sizes">
+                            <li class="product-size__XL">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">XL</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__L">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">L</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__M">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">M</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__S">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">S</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <picture>
+                        <source media="(max-width:465px)" srcset="">
+                        <img class="product-img" src="./img/Picture(2).png" alt="Photo">
+                    </picture>
+
+                    <label class="product__button-like--radio">
+                        <input type="radio" hidden>
+                        <span class="img-like"></span>
+                    </label>
+
+
+                    <div class="product__description">
+                        <h3 class="product-name">
+                            Men's Essential Tee
+                        </h3>
+
+                        <p class="product-category">
+                            (Black)
+                        </p>
+
+                        <p class="product-price">
+                            $32.00
+                        </p>
+
+                        <ul class="product-sizes">
+                            <li class="product-size__XL">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">XL</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__L">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">L</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__M">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">M</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__S">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">S</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <picture>
+                        <source media="(max-width:465px)" srcset="">
+                        <img class="product-img" src="./img/Picture(3).png" alt="Photo">
+                    </picture>
+
+                    <label class="product__button-like--radio">
+                        <input type="radio" hidden>
+                        <span class="img-like"></span>
+                    </label>
+
+                    <div class="product__description">
+                        <h3 class="product-name">
+                            Men's Essential Tee
+                        </h3>
+
+                        <p class="product-category">
+                            (Black)
+                        </p>
+
+                        <p class="product-price">
+                            $32.00
+                        </p>
+
+                        <ul class="product-sizes">
+                            <li class="product-size__XL">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">XL</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__L">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">L</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__M">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">M</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__S">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">S</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <picture>
+                        <source media="(max-width:465px)" srcset="">
+                        <img class="product-img" src="./img/Picture(4).png" alt="Photo">
+                    </picture>
+
+                    <label class="product__button-like--radio">
+                        <input type="radio" hidden>
+                        <span class="img-like"></span>
+                    </label>
+
+                    <div class="product__description">
+                        <h3 class="product-name">
+                            Men's Essential Tee
+                        </h3>
+
+                        <p class="product-category">
+                            (Black)
+                        </p>
+
+                        <p class="product-price">
+                            $32.00
+                        </p>
+
+                        <ul class="product-sizes">
+                            <li class="product-size__XL">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">XL</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__L">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">L</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__M">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">M</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__S">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size ">S</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <picture>
+                        <source media="(max-width:465px)" srcset="">
+                        <img class="product-img" src="./img/Picture(5).png" alt="Photo">
+                    </picture>
+
+                    <label class="product__button-like--radio">
+                        <input type="radio" hidden>
+                        <span class="img-like"></span>
+                    </label>
+
+                    <div class="product__description">
+                        <h3 class="product-name">
+                            Men's Essential Tee
+                        </h3>
+
+                        <p class="product-category">
+                            (Black)
+                        </p>
+
+                        <p class="product-price">
+                            $32.00
+                        </p>
+
+                        <ul class="product-sizes">
+                            <li class="product-size__XL">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">XL</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__L">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">L</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__M">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">M</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__S">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">S</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <picture>
+                        <source media="(max-width:465px)" srcset="">
+                        <img class="product-img" src="./img/Picture(6).png" alt="Photo">
+                    </picture>
+
+                    <label class="product__button-like--radio">
+                        <input type="radio" hidden>
+                        <span class="img-like"></span>
+                    </label>
+
+
+                    <div class="product__description">
+                        <h3 class="product-name">
+                            Men's Essential Tee
+                        </h3>
+
+                        <p class="product-category">
+                            (Black)
+                        </p>
+
+                        <p class="product-price">
+                            $32.00
+                        </p>
+
+                        <ul class="product-sizes">
+                            <li class="product-size__XL">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">XL</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__L">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">L</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__M">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">M</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__S">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">S</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <picture>
+                        <source media="(max-width:465px)" srcset="">
+                        <img class="product-img" src="./img/Picture(7).png" alt="Photo">
+                    </picture>
+
+                    <label class="product__button-like--radio">
+                        <input type="radio" hidden>
+                        <span class="img-like"></span>
+                    </label>
+
+                    <div class="product__description">
+                        <h3 class="product-name">
+                            Men's Essential Tee
+                        </h3>
+
+                        <p class="product-category">
+                            (Black)
+                        </p>
+
+                        <p class="product-price">
+                            $32.00
+                        </p>
+
+                        <ul class="product-sizes">
+                            <li class="product-size__XL">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">XL</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__L">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">L</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__M">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">M</span>
+                                </label>
+                            </li>
+
+                            <li class="product-size__S">
+                                <label>
+                                    <input type="radio" name="product-sizes" hidden>
+                                    <span class="product-size">S</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-blog">
+        <div class="section-blog-wrap">
+            <h2 class="section-blog__title">
+                Latest Products
+            </h2>
+
+            <div class="section-blog__articles">
+                <div class="section-blog__article">
+                    <picture>
+                        <source media="(max-width:465px)" srcset="">
+                        <img class="article-img " src="./img/blog1.png" alt="Photo">
+                    </picture>
+
+                    <div class="article-information-wrap">
+                        <time class="article-datetime" datetime="2019-06-20">
+                            20 JUNE 2019
+                        </time>
+
+                    <h3 class="article-title">
+                        Life Tips From
+                        Top Ten Adventure
+                    </h3>
+
+                    <p class="article-description">
+                        Slate helps you see how many
+                        more days you need to work to
+                        reach.
+                    </p>
+
+                    <ul class="section-blog__links">
+                        <li><a class="btn-anim">Google</a></li>
+                        <li><a class="btn-anim">Trending</a></li>
+                        <li><a class="btn-anim">New</a></li>
+                    </ul>
+                </div>
+                </div>
+
+                <div class="section-blog__article">
+                    <picture>
+                        <source media="(max-width:465px)" srcset="">
+                        <img class="article-img " src="./img/blog2.png" alt="Photo">
+                    </picture>
+
+                    <div class="article-information-wrap">
+                        <time class="article-datetime" datetime="2019-06-20">
+                            20 JUNE 2019
+                        </time>
+
+                        <h3 class="article-title">
+                            Life Tips From
+                            Top Ten Adventure
+                        </h3>
+
+                        <p class="article-description">
+                            Slate helps you see how many
+                            more days you need to work to
+                            reach.
+                        </p>
+
+                        <ul class="section-blog__links">
+                            <li><a class="btn-anim">Google</a></li>
+                            <li><a class="btn-anim">Trending</a></li>
+                            <li><a class="btn-anim">New</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section-blog__article">
+                    <picture>
+                        <source media="(max-width:465px)" srcset="">
+                        <img class="article-img " src="./img/blog3.png" alt="Photo">
+                    </picture>
+
+                    <div class="article-information-wrap">
+                        <time class="article-datetime" datetime="2019-06-20">
+                            20 JUNE 2019
+                        </time>
+
+                        <h3 class="article-title">
+                            Top Ten Adventure
+                            Travelers
+                        </h3>
+
+                        <p class="article-description">
+                            Slate helps you see how many
+                            more days you need to work to
+                            reach.
+                        </p>
+
+                        <ul class="section-blog__links">
+                            <li><a class="btn-anim">Google</a></li>
+                            <li><a class="btn-anim">Trending</a></li>
+                            <li><a class="btn-anim">New</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main>
+</body>
+</html>

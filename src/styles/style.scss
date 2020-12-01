@@ -1,0 +1,34 @@
+//@import "common-styles", "variables",
+//"S_main-header", "S_categories", "S_featured",
+//"S_latest","S_blog", "media", "extend";
+@import "extend";
+@import "common-styles";
+@import "variables";
+@import "S_main-header";
+@import "S_categories";
+@import "S_featured";
+@import "S_latest";
+@import "S_blog";
+@import "media";
+
+body {
+  margin: 1px;
+  font-family: Montserrat, Raleway, sans-serif;
+}
+
+
+
+
+
+
+//@mixin mouse($media){
+//  @if $media == mobile {@media screen and (max-width: 840px) {@content}
+//  }
+//}
+//
+//main div {
+//  @include mouse(mobile){background: #d61229};
+//  width: 60px;
+//  height: 60px;
+//  border: 4px solid darkblue;
+//}

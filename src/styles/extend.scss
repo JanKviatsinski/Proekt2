@@ -1,0 +1,28 @@
+%reset{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+%common-label {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  position: relative;
+}
+
+%user-tools-animation{
+  position: relative;
+  animation-name: user-tools-animation;
+  animation-duration: 70ms;
+  animation-timing-function: linear;
+  animation-iteration-count: 4;
+}
+
+%box-shadow-animation{
+  animation-name: box-shadow-animation;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+}
+

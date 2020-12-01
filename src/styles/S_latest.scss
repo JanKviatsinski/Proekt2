@@ -1,0 +1,26 @@
+//@import "extend";
+
+.section-latest{
+  display: flex;
+  justify-content: center;
+}
+
+.section-latest-wrap {
+  max-width: 1440px;
+  padding: 60px 90px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.section-latest__title {
+  //@extend %reset;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 60px;
+}
+
+.section-latest__products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(241px,1fr));
+  grid-gap: 20px;
+}

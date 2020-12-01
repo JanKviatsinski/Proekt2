@@ -1,0 +1,20 @@
+:root {
+  --text-color1: #ffffff;
+  --text-color2: #2091F9;
+  --text-color3: #3fff49;
+  --text-color4: #737373;
+
+  --background-color1: #ffffff;
+
+  --border-color1: #ffffff;
+  --border-color2: #2091F9;
+  --border-color3: #3fff49;
+
+  //два одинаковых цвета с разной прозрачностью для анимации тени кнопок
+  --box-shadow-color1: rgba(63, 255, 73, 0);
+  --box-shadow-color2: rgba(63, 255, 73, 1);
+
+  //два одинаковых цвета с разной прозрачностью для анимации фона кнопок
+  --background-color-button1: rgba(63, 255, 73, 0);
+  --background-color-button2: rgba(63, 255, 73, 0.5);
+}
