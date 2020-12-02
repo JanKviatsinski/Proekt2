@@ -1,4 +1,3 @@
-//@import "extend";
 
 .main-header {
   position: relative;
@@ -40,7 +39,6 @@
 }
 
 .main-navigation{
-  @extend %reset;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -113,20 +111,17 @@
 }
 
 .main-header__title{
-   @extend %reset;
    color: var(--text-color1);
    margin-bottom: 40px;
  }
 
 .main-header__main-title{
-   @extend %reset;
    font-size: 58px;
    color: var(--text-color1);
    margin-bottom: 30px;
  }
 
 .main-header__paragraph{
-   @extend %reset;
    color: var(--text-color1);
    font-size: 20px;
    margin-bottom: 30px;

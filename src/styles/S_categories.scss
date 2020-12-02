@@ -23,7 +23,7 @@
 }
 
 .section-categories__category {
-  @extend %reset;
+  //@extend %reset;
   display:flex;
   justify-content: center;
   position: relative;

@@ -1,6 +1,4 @@
-//@import "common-styles", "variables",
-//"S_main-header", "S_categories", "S_featured",
-//"S_latest","S_blog", "media", "extend";
+
 @import "extend";
 @import "common-styles";
 @import "variables";
@@ -12,7 +10,7 @@
 @import "media";
 
 body {
-  margin: 0;
+  //margin: 30px;
   font-family: Montserrat, Raleway, sans-serif;
 }
 
