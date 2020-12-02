@@ -10,11 +10,54 @@
 @import "media";
 
 body {
-  //margin: 30px;
   font-family: Montserrat, Raleway, sans-serif;
 }
 
+.mobile-menu{
+  border-radius: 15px;
+  overflow: hidden;
+  position:fixed;
+  top: 10px;
+  left: 50%;
+  z-index: 30;
+}
 
+#menu{
+}
+
+.mobile-menu__label{
+  display: block;
+  min-width: 200px;
+  background: var(--background-color1);
+  text-align: center;
+
+  span {
+    display: block;
+    padding: 15px 25px;
+    font-weight: bold;
+  }
+}
+
+.mobile-menu-wrap{
+  border-top: solid 2px var(--border-color2);
+  display: none;
+  background: var(--background-color1);
+}
+
+.mobile-navigation{
+  text-align: center;
+  padding: 15px;
+  li{
+    margin-bottom: 16px;
+  }
+  li:last-child{
+    margin: 0;
+  }
+}
+
+#menu:checked ~ .mobile-menu-wrap {
+display: block;
+}
 
 
 
