@@ -26,6 +26,7 @@
 .section-blog__article {
   display: flex;
   flex-direction: column;
+  min-width: 252px;
 }
 
 .article-img {
@@ -63,14 +64,16 @@
 .section-blog__links{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  margin:  0 -10px -5px 0;
 
   li{
-    margin-right: 30px;
+    margin: 0 10px 5px 0;
     color: var(--text-color2);
-  }
 
-  li:last-child{
-    margin: 0;
+    a{
+      display: block;
+    }
   }
 }
 

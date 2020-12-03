@@ -22,17 +22,15 @@
 }
 
 .section-featured__filters {
-  list-style-type: none;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 -15px -15px 0;
+
 
   li{
-    margin-right: 38px;
+    margin: 0 15px 15px 0;
   }
-}
-
-.section-featured__filters li:last-child{
-  margin: 0;
 }
 
 .filter-button {

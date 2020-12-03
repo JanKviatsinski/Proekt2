@@ -1,4 +1,4 @@
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   .main-header-wrap {
     align-items: center;
   }
@@ -11,49 +11,66 @@
                  "nav nav";
   }
 
-  .main-header__user-tools,
-  .main-navigation{
-    justify-content: space-between;
-  }
-
-  .main-header__button-basket {
-    padding: 20px;
-  }
+  //.main-header__user-tools,
+  //.main-navigation{
+  //  justify-content: space-between;
+  //}
 
   .logo {
     grid-area: logo;
+    width: 80%;
   }
 
   .main-navigation{
     grid-area: nav;
+    justify-content: center;
   }
 
   .main-header__user-tools {
     grid-area: tools;
+    justify-content: flex-end;
   }
 }
 
 @media (max-width: 1000px){
 
   .section-categories-wrap{
-    max-width: 1440px;
     padding: 50px;
-    display: grid;
     grid-template-rows:  1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
-    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 770px) {
+  .main-header__nav-wrap {
+    display: flex;
+    //работает гап
+    grid-gap: 0;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .main-header__button-basket{
+    display: flex;
+    margin-right: 15px;
+  }
+
+  .mobile-menu{
+    display: block;
+  }
+
+  .main-navigation,
+  .main-header__button-login,
+  .main-header__button-liked{
+    display: none;
   }
 }
 
 @media (max-width: 650px){
-
   .section-categories-wrap{
-    max-width: 1440px;
     padding: 50px;
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
     //почему тут работает gap?
     grid-gap: 0;
     width: 100%;
@@ -69,6 +86,22 @@
 }
 
 @media (max-width: 580px){
+  .main-header-wrap{
+    padding: 50px 15px;
+
+    .main-header__main-title{
+      font-size: 48px;
+    }
+  }
+
+  .section-categories-wrap{
+    padding: 60px 15px;
+  }
+
+  .section-featured-wrap {
+    padding: 60px 15px;
+  }
+
   .product img{
     margin: 0;
   }
@@ -93,4 +126,11 @@
     font-size: 20px;
   }
 
+  .section-latest-wrap {
+    padding: 60px 15px;
+  }
+
+  .section-blog-wrap{
+    padding: 60px 15px;
+  }
 }

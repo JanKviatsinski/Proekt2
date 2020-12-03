@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <title>PROECT-2</title>
     <link rel="stylesheet" type="text/css" href="./index.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
@@ -39,6 +40,21 @@
                 <button class="main-header__button-basket">
                     <img class="main-header__img-basket" src="./img/basket.png" alt="basket">
                 </button>
+
+                <div class="mobile-menu">
+                    <input id="menu" type="checkbox" name="mobile-menu" hidden>
+                    <label for="menu" class="mobile-menu__label"></label>
+                    <nav class="mobile-menu-wrap">
+                        <ul class="mobile-navigation">
+                            <li><a class="btn-anim">Home</a></li>
+                            <li><a class="btn-anim">Shop</a></li>
+                            <li><a class="btn-anim">Account</a></li>
+                            <li><a class="btn-anim">Pages</a></li>
+                            <li><a class="btn-anim">Blog</a></li>
+                            <li><a class="btn-anim">Docs / Components</a></li>
+                        </ul>
+                    </nav>
+            </div>
             </div>
             </div>
 
@@ -132,7 +148,7 @@
                     </li>
 
                     <li>
-                        <button class="filter-button btn-anim" >Best Seller</button>
+                        <button class="filter-button btn-anim" >New Arrivals</button>
                     </li>
 
                 </ul>
@@ -950,7 +966,7 @@
     <section class="section-blog">
         <div class="section-blog-wrap">
             <h2 class="section-blog__title">
-                Latest Products
+                Our Blog
             </h2>
 
             <div class="section-blog__articles">
@@ -1047,32 +1063,6 @@
             </div>
         </div>
     </section>
-
-
-
-
-
-
-
-    <div class="mobile-menu">
-        <input id="menu" type="checkbox" name="mobile-menu"  >
-<!--        <div class="label-wrap">-->
-        <label for="menu" class="mobile-menu__label"></label>
-<!--        </div>-->
-    <nav class="mobile-menu-wrap">
-        <ul class="mobile-navigation">
-            <li><a class="btn-anim">Home</a></li>
-            <li><a class="btn-anim">Shop</a></li>
-            <li><a class="btn-anim">Account</a></li>
-            <li><a class="btn-anim">Pages</a></li>
-            <li><a class="btn-anim">Blog</a></li>
-            <li><a class="btn-anim">Docs / Components</a></li>
-        </ul>
-    </nav>
-</div>
-
-
-
 </main>
 </body>
 </html>
