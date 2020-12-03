@@ -34,12 +34,13 @@
 }
 
 .mobile-menu__label{
+  display: none;
   position: relative;
   min-height: 58px;
   min-width: 30px;
   top: 0;
   right: 0;
-  display: block;
+  //display: block;
   z-index: 10;
 }
 
@@ -70,21 +71,7 @@
   background: var(--background-color1);
 }
 
-.mobile-navigation{
-  text-align: center;
-  padding: 15px;
 
-  li{
-    margin-bottom: 16px;
-  }
-  li:last-child{
-    margin: 0;
-  }
-}
-
-#menu:checked ~ .mobile-menu-wrap {
-  display: block;
-}
 
 .main-header__nav-wrap {
   display: grid;
@@ -96,11 +83,14 @@
   margin-bottom: 20px;
 }
 
+.main-navigation__wrap{
+  min-width: 606px;
+}
+
 .main-navigation{
   display: flex;
-  flex-direction: row;
+  height: 100%;
   align-items: center;
-  min-width: 606px;
 
   li{
     margin-right: 30px;
