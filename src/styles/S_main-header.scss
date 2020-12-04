@@ -28,7 +28,7 @@
   box-sizing: border-box;
 }
 
-.mobile-menu__label{
+.main-navigation__label{
   display: none;
   position: relative;
   min-height: 58px;
@@ -38,8 +38,8 @@
   z-index: 10;
 }
 
-.mobile-menu__label:after,
-.mobile-menu__label:before{
+.main-navigation__label:after,
+.main-navigation__label:before{
   content: "";
   height: 4px;
   background: var(--background-color1);
@@ -47,12 +47,12 @@
   right: 0;
 }
 
-.mobile-menu__label:after{
+.main-navigation__label:after{
   top: 0;
   width: 28px;
 }
 
-.mobile-menu__label:before{
+.main-navigation__label:before{
   width: 12px;
   bottom: 0;
 }
