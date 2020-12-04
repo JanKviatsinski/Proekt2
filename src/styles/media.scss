@@ -1,3 +1,5 @@
+
+//навигация главная и футер
 @media (max-width: 1240px) {
   .main-header-wrap {
     align-items: center;
@@ -36,6 +38,11 @@
   .footer-wrap__navigation{
     justify-content: center;
   }
+
+  .social-networks{
+    max-width: none;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 1000px){
@@ -47,7 +54,7 @@
   }
 }
 
-//бургер
+//бургер и футер
 @media (max-width: 770px) {
   .main-header__menu-wrap{
     grid-template-columns: auto 1fr auto auto ;
@@ -61,7 +68,7 @@
     min-width: auto;
   }
 
-  .main-navigation{
+  .navigation{
     position: absolute;
     top: 70px;
     right: 0;
@@ -89,14 +96,45 @@
     display: block;
   }
 
-  .main-navigation,
+  .navigation,
   .main-header__button-login,
   .main-header__button-liked{
     display: none;
   }
 
-  #menu:checked ~ .main-navigation {
+  #menu:checked ~ .navigation {
     display: block;
+  }
+
+  .footer-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-wrap__logo{
+    margin-bottom: 15px;
+    width: auto;
+  }
+
+  .footer-wrap__navigation{
+    display: block;
+    position: relative;
+    margin-bottom: 15px;
+    top: 0;
+    min-height: auto;
+    background: none;
+
+    li{
+
+      .btn-anim{
+      color: var(--text-color1);
+      }
+
+      .btn-anim:after{
+        border-bottom: 2px solid var(--border-color3);
+      }
+    }
   }
 }
 
@@ -118,6 +156,7 @@
     margin: 0;
   }
 }
+
 
 @media (max-width: 580px){
   .main-header-wrap{

@@ -1,4 +1,4 @@
-
+//.navigation перенести в общие и добавить отриц маржинги
 .main-header {
   position: relative;
   display: flex;
@@ -73,7 +73,7 @@
   bottom: 0;
 }
 
-.main-navigation{
+.navigation{
   display: flex;
   min-height: 100%;
   align-items: center;

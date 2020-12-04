@@ -1,4 +1,4 @@
-
+//
 .footer{
   display: flex;
   justify-content: center;
@@ -28,6 +28,7 @@
   grid-area: soc;
   margin: 0 -15px -15px 0;
   flex-wrap: wrap;
+  max-width: 170px;
 
   li {
     margin: 0 15px 15px 0;
@@ -38,4 +39,3 @@
     }
   }
 }
-
