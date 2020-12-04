@@ -28,11 +28,6 @@
   box-sizing: border-box;
 }
 
-.mobile-menu{
-  display: none;
-  position: relative;
-}
-
 .mobile-menu__label{
   display: none;
   position: relative;
@@ -40,7 +35,6 @@
   min-width: 30px;
   top: 0;
   right: 0;
-  //display: block;
   z-index: 10;
 }
 
@@ -63,17 +57,7 @@
   bottom: 0;
 }
 
-.mobile-menu-wrap{
-  position: absolute;
-  right: 0;
-  top: 75px;
-  display: none;
-  background: var(--background-color1);
-}
-
-
-
-.main-header__nav-wrap {
+.main-header__menu-wrap {
   display: grid;
   width: 100%;
   grid-gap: 10px;
@@ -85,6 +69,7 @@
 
 .main-navigation__wrap{
   min-width: 606px;
+  display: flex;
 }
 
 .main-navigation{

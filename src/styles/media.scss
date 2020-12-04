@@ -3,7 +3,7 @@
     align-items: center;
   }
 
-  .main-header__nav-wrap{
+  .main-header__menu-wrap{
     grid-template-columns: auto 1fr;
     grid-template-rows: auto auto;
     grid-template-areas:
@@ -18,10 +18,6 @@
 
   .main-navigation__wrap{
     grid-area: nav;
-    //justify-content: center;
-  }
-
-  .main-navigation{
     justify-content: center;
   }
 
@@ -40,8 +36,9 @@
   }
 }
 
+//бургер
 @media (max-width: 770px) {
-  .main-header__nav-wrap{
+  .main-header__menu-wrap{
     grid-template-columns: auto 1fr auto auto ;
     grid-template-rows: auto;
     grid-template-areas:
@@ -49,40 +46,32 @@
   }
 
   .main-navigation__wrap{
+    position: relative;
     min-width: auto;
   }
 
-  .main-navigation{
+  .mobile-menu-wrap{
     position: absolute;
-    top: 55px;
+    top: 70px;
+    right: 0;
+    background: var(--background-color1);
+  }
 
+  .main-navigation{
     display: block;
     text-align: center;
     padding: 15px;
-
+//почему последний li не влезает по ширине? ему ничего не мешает
     li{
-      margin-bottom: 16px;
+      margin: 0 0 15px 0;
 
       a{
         color: var(--text-color2);
       }
-
-    }
-    li:last-child{
-      margin: 0;
     }
   }
 
-  //.main-header__user-tools{
-  //  display: grid;
-  //  grid-template-rows:  1fr;
-  //  grid-template-columns: 1fr 1fr;
-  //  grid-template-areas:
-  //              "bask nav";
-  //}
-
   .main-header__button-basket{
-    //grid-area: bask;
     display: flex;
     margin-right: 15px;
   }

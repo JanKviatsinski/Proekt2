@@ -15,53 +15,41 @@
     </picture>
 
     <div class="main-header-wrap">
-        <div class="main-header__nav-wrap">
+        <div class="main-header__menu-wrap">
             <picture>
                 <img class="logo" src="./img/Logo.png" alt="Logo">
             </picture>
 
-            <nav class="main-navigation__wrap">
-                <input id="menu" type="checkbox" name="mobile-menu" hidden >
+            <div class="main-navigation__wrap">
+                <!--затрудняюсь с названиями врапперов-->
+                <input id="menu" type="checkbox" name="main-navigation__wrap__input" hidden >
                 <label for="menu" class="mobile-menu__label"></label>
 
-                <div class="mobile-menu-wrap">
-                <ul class="main-navigation">
+                <nav class="mobile-menu-wrap">
+                    <ul class="main-navigation">
                 <li><a class="btn-anim">Home</a></li>
                 <li><a class="btn-anim">Shop</a></li>
                 <li><a class="btn-anim">Account</a></li>
                 <li><a class="btn-anim">Pages</a></li>
                 <li><a class="btn-anim">Blog</a></li>
                 <li><a class="btn-anim">Docs / Components</a></li>
-                </ul>
-                </div>
-            </nav>
+                    </ul>
+                </nav>
+            </div>
 
             <div class="main-header__user-tools">
                 <button class="main-header__button-login">
                     <img class="main-header__avatar" src="./img/avatar.png" alt="avatar">
                     <span>My Account</span>
                 </button>
+
                 <button class="main-header__button-liked">
                     <img class="main-header__img-liked" src="./img/liked.png" alt="liked">
                 </button>
+
                 <button class="main-header__button-basket">
                     <img class="main-header__img-basket" src="./img/basket.png" alt="basket">
                 </button>
-
-                <div class="mobile-menu">
-<!--                    <input id="menu" type="checkbox" name="mobile-menu" hidden>-->
-                    <label for="menu" class="mobile-menu__label"></label>
-                    <nav class="mobile-menu-wrap">
-                        <ul class="mobile-navigation">
-                            <li><a class="btn-anim">Home</a></li>
-                            <li><a class="btn-anim">Shop</a></li>
-                            <li><a class="btn-anim">Account</a></li>
-                            <li><a class="btn-anim">Pages</a></li>
-                            <li><a class="btn-anim">Blog</a></li>
-                            <li><a class="btn-anim">Docs / Components</a></li>
-                        </ul>
-                    </nav>
-            </div>
             </div>
             </div>
 
