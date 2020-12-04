@@ -10,7 +10,6 @@
   width: 100%;
   min-height: 100%;
   object-fit: cover;
-  /*object-position: top;*/
   position: absolute;
 }
 
@@ -34,20 +33,18 @@
   grid-gap: 10px;
   grid-template-columns: auto 1fr auto;
   grid-template-rows: auto;
-  //padding: 0 15px 0 15px;
   margin-bottom: 20px;
 }
 
 .main-navigation__wrap{
-  min-width: 606px;
   display: flex;
 }
 
 .main-navigation__label{
   display: none;
   position: relative;
-  min-height: 58px;
-  min-width: 30px;
+  height: 58px;
+  width: 30px;
   top: 0;
   right: 0;
   z-index: 10;
@@ -76,6 +73,7 @@
   display: flex;
   min-height: 100%;
   align-items: center;
+  flex-wrap: wrap;
 
   li{
     margin-right: 30px;
