@@ -1,0 +1,41 @@
+
+.footer{
+  display: flex;
+  justify-content: center;
+  background: var(--background-color2);
+}
+
+.footer-wrap{
+  max-width: 1440px;
+  padding: 50px;
+  box-sizing: border-box;
+  display: grid;
+  width: 100%;
+  grid-gap: 10px;
+  align-items: center;
+  grid-template-columns: 1fr 2fr auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+          "logo f-nav soc";
+}
+
+.footer-wrap__navigation{
+  grid-area: f-nav;
+}
+
+.social-networks{
+  display: flex;
+  grid-area: soc;
+  margin: 0 -15px -15px 0;
+  flex-wrap: wrap;
+
+  li {
+    margin: 0 15px 15px 0;
+
+    a {
+      display: block;
+      padding: 0;
+    }
+  }
+}
+
