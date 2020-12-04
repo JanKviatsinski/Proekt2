@@ -50,14 +50,11 @@
     min-width: auto;
   }
 
-  .mobile-menu-wrap{
+  .main-navigation{
     position: absolute;
     top: 70px;
     right: 0;
     background: var(--background-color1);
-  }
-
-  .main-navigation{
     display: block;
     text-align: center;
     padding: 15px;
@@ -80,13 +77,13 @@
     display: block;
   }
 
-  .mobile-menu-wrap,
+  .main-navigation,
   .main-header__button-login,
   .main-header__button-liked{
     display: none;
   }
 
-  #menu:checked ~ .mobile-menu-wrap {
+  #menu:checked ~ .main-navigation {
     display: block;
   }
 }
