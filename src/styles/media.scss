@@ -58,12 +58,13 @@
     display: block;
     text-align: center;
     padding: 15px;
-//почему последний li не влезает по ширине? ему ничего не мешает
+
     li{
       margin: 0 0 15px 0;
 
       a{
         color: var(--text-color2);
+        white-space: nowrap;
       }
     }
   }
@@ -95,7 +96,7 @@
     flex-direction: column;
     //почему тут работает gap?
     grid-gap: 0;
-    width: 100%;
+    //width: 100%;
   }
 
   .section-categories__category{
