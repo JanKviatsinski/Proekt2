@@ -24,6 +24,10 @@ function copyHTML(_cb) {
     return src('src/index.html').pipe(dest('build'));
 }
 
+function copyJS(_cb) {
+    return src('src/style.js').pipe(dest('build'));
+}
+
 function transformSCSS() {
     return src('src/styles/**/style.scss')
         .pipe(sass().on('error', sass.logError))
@@ -39,6 +43,7 @@ function imagemin () {
 }
 
 function watchTasks() {
+    watch('src/style.js', copyJS);
     watch('src/index.html', copyHTML);
     watch('src/styles/**/*.scss', transformSCSS);
 }
@@ -49,5 +54,5 @@ exports.style = transformSCSS;
 exports.imagemin = imagemin;
 exports.default = series(
     clean,
-    parallel(copyHTML, transformSCSS, imagemin),
+    parallel(copyHTML, copyJS, transformSCSS, imagemin),
     parallel(watchTasks, serve));
