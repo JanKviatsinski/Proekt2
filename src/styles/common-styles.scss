@@ -1,4 +1,28 @@
 
+.navigation{
+  display: flex;
+  min-height: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 -30px -15px 0;
+
+  li{
+    margin: 0 30px 15px 0;
+
+    .btn-anim:after{
+      border-bottom: 2px solid var(--border-color3);
+    }
+
+    .btn-anim:hover{
+      color: var(--text-color3);
+    }
+
+    a{
+      color: var(--text-color1);
+    }
+  }
+}
+
 button {
   cursor: pointer;
   color: var(--text-color1);
@@ -60,9 +84,9 @@ input {
 @keyframes box-shadow-animation {
   0%{
     box-shadow: 0 0 20px var(--box-shadow-color1);
-    background: var(--background-color-button1);
+    background: var(--background-button-color1);
   }
   100%{box-shadow: 0 0 20px var(--box-shadow-color2);
-    background: var(--background-color-button2);
+    background: var(--background-button-color2);
   }
 }

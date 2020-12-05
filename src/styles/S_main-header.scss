@@ -73,32 +73,6 @@
   bottom: 0;
 }
 
-.navigation{
-  display: flex;
-  min-height: 100%;
-  align-items: center;
-  flex-wrap: wrap;
-
-  li{
-    margin-right: 30px;
-
-    .btn-anim:after{
-    border-bottom: 2px solid var(--border-color3);
-    }
-
-    .btn-anim:hover{
-      color: var(--text-color3);
-    }
-
-    a{
-      color: var(--text-color1);
-    }
-  }
-  li:last-child{
-    margin: 0;
-  }
-}
-
 .main-header__user-tools{
   display: flex;
 
