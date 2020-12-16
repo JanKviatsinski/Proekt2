@@ -1,31 +1,121 @@
 'use strict'
 
 
-function d (bla){
-    let x = bla;
-    let y = bla.split('').reverse().join('');
-    return (x === y) ?  'да' : 'нет';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const originalArray = [10, 2, 33, 1, 33, 4, 9, 22, 10];
+
+// function arrayTransformation (originalData) {
+//
+//     function findUnique(data) {
+//         const result = [];
+//
+//         for (let str of data) {
+//             if (!result.includes(str))
+//         result.push(str);
+//       }
+//
+//         return result;
+//     }
+//
+//     const uniqueArray = findUnique(originalData)
+//         .sort( (a, b) => a - b)
+// return uniqueArray;
+// }
+//
+// console.log(arrayTransformation(originalArray));
+
+// const originalArray = [10, 2, 33, 1, 33, 4, 9, 22, 10];
+//
+// function arrayTransformation (originalData) {
+//
+//     const sortArray = originalData.sort( (a, b) => a - b);
+//
+//     const newArray = [];
+//
+//     sortArray.reduce((previous, next) =>{
+//
+//         // (previous === next) ? newArray.push(previous) : next;
+//
+//         if ( previous === next ) newArray.push(next)
+//         else return next;
+//     },0)
+//
+//     return newArray;
+// }
+
+// console.log( arrayTransformation(originalArray) );
+
+
+const originalArray = [10, 2, 33, 1, 33, 4, 9, 22, 10];
+
+function arrayTransformation (originalData) {
+
+    const sortArray = originalData.sort( (a, b) => a - b);
+
+   sortArray.reduce((previous, next) =>{
+
+        if ( previous === next ) sortArray.splice(sortArray.indexOf(next,0),1)
+        else return next;
+    },0)
+
+    return sortArray;
 }
 
-
-console.log(d('sos'));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log( arrayTransformation(originalArray) )
 
 
 
